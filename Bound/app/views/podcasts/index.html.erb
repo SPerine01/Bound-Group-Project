@@ -1,5 +1,5 @@
    <div id = "header div">
-         <div id="logo">
+      <div id="logo">
          <%= image_tag "bound-logo.png"  %>
       </div>
       <div id="nav-form">
@@ -16,11 +16,11 @@
          <span id="mode">TRANSIT</span>
          <div>
             <form id="startEnd">
-               Start Point:
+               Start Point
                <input type="text" name="start_point">
-               End Point:
+               End Point
                <input type="text" name="end_point">
-               <button type="button" id="sub_butt"> Submit</button>
+               <button type="button" id="sub_butt">Submit</button>
             </form>
          </div>
       </div>
@@ -82,7 +82,7 @@
                <%= label_tag(:Music, "Music")%>
             </div>
                <br>
-               <%= submit_tag("Submit") %>
+               <%= submit_tag("Submit", class:"submitty") %>
                 <% end %>
          </fieldset>
    </div>
